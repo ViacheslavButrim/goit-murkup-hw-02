@@ -47,14 +47,19 @@ font-family: "Roboto", sans-serif;
 }
 .contact-link {
     font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 1.5;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
+
 .contact-link:hover {
-    color: #404bbf
+    color: #404bbf;
+}
+
+.contact-link:focus {
+    color: #404bbf;
 }
 .section {
     background-color: #2e2f42;
@@ -79,10 +84,10 @@ font-family: "Roboto", sans-serif;
         cursor: pointer;
 }
 .button:hover {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 .button:focus {
-    color: #404BBF;
+    background-color: #404BBF;
 }
 
 .head-list {
